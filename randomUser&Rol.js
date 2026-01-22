@@ -15,16 +15,7 @@ class Usuario{
         `;
     }           
 
-    mostrar(){
-        return `
-            <div class="card">
-                <img src="${this.foto}" alt="${this.nombre}">
-                <h3>${this.nombre} - <span class="rol">${this.rol}</span></h3>
-                <h4>${this.rol}</h4>
-                <p>${this.email}</p>
-            </div>
-        `;
-    }   
+    
 }
 
 class usuarioConRol extends Usuario {   
